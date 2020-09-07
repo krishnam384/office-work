@@ -1,0 +1,9 @@
+1. How to use Next()?
+
+2. How to install dotenv file:
+	
+	npm install dotenv --save
+	
+   * Create .env file in the root directory and add PORT=3003
+   * Now in app.js file at the top write require('dotenv').config();	
+	then const PORT = process.env.PORT || 3000;
